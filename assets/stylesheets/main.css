@@ -1,0 +1,84 @@
+/* Declaration Order
+   1) Positioning
+   2) Box-Model
+   3) Typographic
+   4) Visual */
+
+/* General */
+
+.container {
+  width: 79%;
+  margin: 0 auto;
+}
+
+small {
+  font-size: .7em;
+
+  color: grey;
+}
+
+h1 {
+  font-size: 4em;
+}
+
+/* Main */
+
+main {
+  text-align: center;
+  font-family: "Lucida Grande", sans-serif;
+  color: white;
+}
+
+main p {
+  font-size: 1.5em;
+  line-height: 1.5em;
+}
+
+main a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.5em;
+}
+
+/* Background */
+
+div.background {
+  background: url("../images/background.jpg") no-repeat;
+}
+
+/* Asides */
+
+div.advertisements {
+  margin-top: .2em;
+
+  font-size: .2em;
+}
+
+aside {
+  display: inline;
+}
+
+aside img {
+  width: 24.92%;
+}
+
+/* Footer */
+
+footer {
+  margin-top: 2em;
+}
+
+section.copyright {
+  float: left;
+}
+
+section.sitemap {
+  position: relative;
+  float: right;
+}
+
+img[src$="usa.png"] {
+  position: absolute;
+  top: .2em;
+  right: -2em;
+}
