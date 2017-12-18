@@ -24,6 +24,7 @@ h1 {
 /* Main */
 
 main {
+  margin-top: 5em;
   text-align: center;
   font-family: "Lucida Grande", sans-serif;
   color: white;
@@ -40,10 +41,74 @@ main a {
   font-size: 1.5em;
 }
 
+/* NavBar */
+
+nav {
+  position: relative;
+  top: 1em;
+  height: 2.5em;
+  vertical-align: middle;
+  width: 70%;
+  margin: 0 auto;
+  border-radius: 6px;
+  background: linear-gradient(#8c8c8c, #8c8c8c 50%, #4d4d4d);
+}
+
+nav li {
+  position: relative;
+  display: inline-block;
+  width: 10%;
+  text-align: center;
+  line-height: 2.5em;
+  border-right: .5px solid #999999;
+}
+
+nav li#search {
+  border: 0;
+}
+
+nav a {
+  font-size: .9em;
+  text-decoration: none;
+  color: white;
+}
+
+nav li:hover:not(#search) {
+  background: linear-gradient(#737373, #737373 50%, #333333);
+}
+
+input[type="search"] {
+  margin-left: 2em;
+  padding-left: 1.5em;
+  width: 100%;
+  background: inherit;
+  border: 1px solid #595959;
+  border-radius: 25px;
+}
+
+input[type="search"]:focus {
+  background: white;
+}
+
+i[class="fas fa-search"] {
+  position: absolute;
+  left: 3em;
+  top: 1.3em;
+  font-size: .7em;
+  color: white;
+}
+
+img[src$="apple.png"] {
+  position: relative;
+  top: .5em;
+}
+
 /* Background */
 
 div.background {
   background: url("../images/background.jpg") no-repeat;
+  background-size: 100% 100%;
+  height: 1000px;
 }
 
 /* Asides */
@@ -51,7 +116,7 @@ div.background {
 div.advertisements {
   margin-top: .2em;
 
-  font-size: .2em;
+  font-size: 0;
 }
 
 aside {
@@ -59,7 +124,7 @@ aside {
 }
 
 aside img {
-  width: 24.92%;
+  width: 25%
 }
 
 /* Footer */
