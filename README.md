@@ -4,7 +4,7 @@ This purpose of this project was to practice using backgrounds and gradients in 
 
 This is a project from [The Odin Project](https://www.theodinproject.com/courses/html5-and-css3/lessons/building-with-backgrounds-and-gradients).
 
-Screenshot...
+![Screenshot](assets/images/Screenshot.png)
 
 ## Pre-Project Thoughts
 
